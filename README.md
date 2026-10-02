@@ -1,9 +1,7 @@
-I completed everything instructed in Chapters 1, 2, 5, and 6.
+I completed everything from Chapter 7, 8, and 9
 
-If you open the project and it starts in the sample scene, please switch to the included **"main"** scene. That scene contains all of my completed work.
+For chapter 7, you can see the capsule collider in Player. The player also have physics for movement and better interaction when pushing against the wall
 
-I left several pieces of code, such as the testing code in `Update()`, `Start()`, and `OnDestroy()`, in the project to demonstrate that I completed those portions of the assignment.
+For chapter 8, There is now two more scene for Winning and Losing condition. The GameMode empty object contains the code for changing the scene. One of the losing condition is when the base is destroyed. To implement this, inside the house to the right, there is a pillar that all the enemy will rush toward if player is not in sight. Then it will shoot it. Once the pillar HP drop, the game will switch scene to lose scene which contain a huge cube to symbolize losing. Win screen is symbolikzed by huge sphere.
 
-I also commented out the previous movement code rather than deleting it. This is to show that I completed the original movement implementation while also incorporating the new movement system into the same script file.
-
-I also included different prefabs based on the prefab variants, as shown by the models on the right side of the scene when loaded in.
+For chapter 7, the Enemy now have finite state machine for deciding pathing. Also NavMesh is added to the floor of the house and extends outward to the road leading outside.
