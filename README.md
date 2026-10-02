@@ -1,7 +1,9 @@
-I completed everything from Chapter 7, 8, and 9
+I completed everything from Chapters 7, 8, and 9.
 
-For chapter 7, you can see the capsule collider in Player. The player also have physics for movement and better interaction when pushing against the wall
+A brief description of what I did:
 
-For chapter 8, There is now two more scene for Winning and Losing condition. The GameMode empty object contains the code for changing the scene. One of the losing condition is when the base is destroyed. To implement this, inside the house to the right, there is a pillar that all the enemy will rush toward if player is not in sight. Then it will shoot it. Once the pillar HP drop, the game will switch scene to lose scene which contain a huge cube to symbolize losing. Win screen is symbolikzed by huge sphere.
+For Chapter 7, the Player now has a capsule collider and uses physics-based movement for better interactions with walls.
 
-For chapter 7, the Enemy now have finite state machine for deciding pathing. Also NavMesh is added to the floor of the house and extends outward to the road leading outside.
+For Chapter 8, there are two additional scenes for winning and losing. The GameMode empty object contains the code for switching scenes. One of the losing conditions is the destruction of the base. Inside the house on the right, there is a pillar that enemies move toward and shoot when the player is not in sight. Once the pillar's health reaches zero, the game switches to the lose scene, which contains a large cube to represent defeat. The win scene contains a large sphere to represent victory.
+
+For Chapter 9, enemies now use a finite state machine to control their behavior and navigation. A NavMesh has also been added to the house floor and extends onto the road outside.
